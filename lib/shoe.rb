@@ -7,7 +7,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     ALL_BRANDS << brand
-    BRANDS = ALL_BRANDS.uniq
+    BRANDS << ALL_BRANDS.uniq
   end
 
   def cobble
